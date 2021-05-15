@@ -28,7 +28,7 @@ def transfer(dst: address, amt: uint256) -> (bool):
 
 @external
 def transferFrom(src: address, dst: address, amt: uint256) -> (bool):
-    return True
+    return False
 
 
 @external
